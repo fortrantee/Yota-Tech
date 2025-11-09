@@ -44,7 +44,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.yotatech.yotavoltgun": "Yotavoltgun",
+      "item.yotatech.yotavoltgun": "voltgun",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
       "itemGroup.tabyota_creative_tab": "Yota-Tech"
     }
@@ -67,6 +67,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.yotatech",
     "lockBaseModFiles": false
   },

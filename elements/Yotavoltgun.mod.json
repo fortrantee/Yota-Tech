@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "yotaplaceholder2",
     "customModelName": "gunj:default",
-    "name": "Yotavoltgun",
+    "name": "voltgun",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:YotaCreativeTab"
