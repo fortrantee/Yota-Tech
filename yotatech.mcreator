@@ -33,9 +33,9 @@
       "registry_name": "yotavoltgun",
       "metadata": {
         "files": [
+          "src/main/resources/assets/yotatech/models/item/yotavoltgun.json",
           "src/main/java/net/mcreator/yotatech/item/YotavoltgunItem.java",
-          "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java",
-          "src/main/resources/assets/yotatech/models/item/yotavoltgun.json"
+          "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java"
         ]
       }
     }
