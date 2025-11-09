@@ -38,7 +38,7 @@ public class YotavoltgunItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.CROSSBOW;
+		return UseAnim.BOW;
 	}
 
 	@Override
