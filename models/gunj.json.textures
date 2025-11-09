@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yotagrayplain",
+        "3": "yotagrayplain",
+        "4": "yotagrayplain",
+        "5": "yotagrayplain",
+        "6": "yotagrayplain",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}
