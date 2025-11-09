@@ -1,0 +1,27 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_3def192e-7249-a7b4-c0d2-22ff0334edb8": "",
+        "m_809b3206-b0bf-0c8a-9887-41dec85695bf": "",
+        "m_488498f4-bdff-9bdb-3f8d-a5ca9935fa9d": "",
+        "m_76b3096b-0be4-aec4-1afd-f427ca932783": "",
+        "m_6fc4c315-19dd-7897-bdc8-debe58a3aadb": "",
+        "m_ef881712-b817-9e64-00ac-344ba9b92f44": "",
+        "m_469a3ed5-17d4-dc98-5879-e01728553042": "",
+        "m_b84986d0-1b8a-ac2c-24db-8b2f0a7da17d": "",
+        "m_1dbef4c3-7841-f253-1960-32f3af727ff4": "",
+        "m_60d933c4-2e7c-7cea-c429-093a7eca88de": "",
+        "m_307ce8b1-e4ea-a3d7-88b8-45745ccb07e3": "",
+        "m_54d0d5df-5313-604e-3416-76253632697f": "",
+        "m_a83aacc0-f121-c718-963c-41b428a08864": "",
+        "m_70d79125-339e-30fd-5ea4-f748d7e47364": "",
+        "m_da7ebdc2-1526-4a88-1edc-66feb19f1b84": "",
+        "m_ff2716c3-c5fa-d7b2-5138-fba94dd618d2": "",
+        "m_4a9ae031-4557-d1a9-aef7-1816560bb2c9": "",
+        "m_5c005bee-a7dd-37ba-c11f-dfc9b8eda9ea": ""
+      },
+      "name": "default"
+    }
+  }
+}
