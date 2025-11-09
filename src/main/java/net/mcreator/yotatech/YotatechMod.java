@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.yotatech.init.YotatechModTabs;
+import net.mcreator.yotatech.init.YotatechModItems;
+import net.mcreator.yotatech.init.YotatechModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,8 +49,11 @@ public class YotatechMod {
 
 	public YotatechMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		YotatechModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		YotatechModItems.REGISTRY.register(bus);
+		YotatechModEntities.REGISTRY.register(bus);
 
 	}
 

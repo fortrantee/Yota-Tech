@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "yotaplaceholder2",
+    "customModelName": "Normal",
+    "name": "Yotavoltgun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:YotaCreativeTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:YotaBulletNormal"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:YotaBulletNormal"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

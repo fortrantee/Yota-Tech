@@ -1,9 +1,53 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "YotaCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "YotaBulletNormal",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_bullet_normal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_bullet_normal.json",
+          "src/main/java/net/mcreator/yotatech/item/YotaBulletNormalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Yotavoltgun",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotavoltgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/item/YotavoltgunItem.java",
+          "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java",
+          "src/main/resources/assets/yotatech/models/item/yotavoltgun.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.yotatech.yotavoltgun": "Yotavoltgun",
+      "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
+      "itemGroup.tabyota_creative_tab": "Yota-Tech"
+    }
   },
   "foldersRoot": {
     "name": "~",
