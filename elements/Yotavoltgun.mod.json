@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "yotaplaceholder2",
-    "customModelName": "Normal",
+    "customModelName": "gunj:default",
     "name": "Yotavoltgun",
     "specialInfo": [],
     "creativeTab": {

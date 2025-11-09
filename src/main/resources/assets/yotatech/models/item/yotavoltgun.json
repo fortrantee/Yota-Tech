@@ -1,76 +1,12 @@
 {
-  "parent": "item/generated",
+  "parent": "yotatech:custom/gunj",
   "textures": {
-    "layer0": "yotatech:items/yotaplaceholder2"
-  },
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [
-        -80,
-        260,
-        -40
-      ],
-      "translation": [
-        -1,
-        -2,
-        2.5
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [
-        -80,
-        -280,
-        40
-      ],
-      "translation": [
-        -1,
-        -2,
-        2.5
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "firstperson_righthand": {
-      "rotation": [
-        0,
-        -90,
-        25
-      ],
-      "translation": [
-        1.13,
-        3.2,
-        1.13
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        0,
-        90,
-        -25
-      ],
-      "translation": [
-        1.13,
-        3.2,
-        1.13
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    }
+    "0": "yotatech:blocks/yotagrayplain",
+    "3": "yotatech:blocks/yotagrayplain",
+    "4": "yotatech:blocks/yotagrayplain",
+    "5": "yotatech:blocks/yotagrayplain",
+    "6": "yotatech:blocks/yotagrayplain",
+    "missing": "yotatech:blocks/",
+    "particle": "yotatech:items/yotaplaceholder2"
   }
 }
