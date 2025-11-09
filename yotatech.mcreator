@@ -38,6 +38,22 @@
           "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java"
         ]
       }
+    },
+    {
+      "name": "Yotasulfurblok",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotasulfurblok",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/block/yotasulfurblok.json",
+          "src/main/resources/assets/yotatech/blockstates/yotasulfurblok.json",
+          "src/main/resources/assets/yotatech/models/item/yotasulfurblok.json",
+          "src/main/java/net/mcreator/yotatech/block/YotasulfurblokBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -45,6 +61,7 @@
   "language_map": {
     "en_us": {
       "item.yotatech.yotavoltgun": "voltgun",
+      "block.yotatech.yotasulfurblok": "Yotasulfurblok",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
       "itemGroup.tabyota_creative_tab": "Yota-Tech"
     }

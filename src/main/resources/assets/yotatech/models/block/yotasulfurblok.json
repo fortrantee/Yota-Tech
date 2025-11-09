@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/yotasulfur",
+    "up": "yotatech:blocks/yotasulfur",
+    "north": "yotatech:blocks/yotasulfur",
+    "east": "yotatech:blocks/yotasulfur",
+    "south": "yotatech:blocks/yotasulfur",
+    "west": "yotatech:blocks/yotasulfur",
+    "particle": "yotatech:blocks/yotasulfur"
+  },
+  "render_type": "solid"
+}

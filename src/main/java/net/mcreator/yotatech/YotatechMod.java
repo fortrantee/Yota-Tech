@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.yotatech.init.YotatechModTabs;
 import net.mcreator.yotatech.init.YotatechModItems;
 import net.mcreator.yotatech.init.YotatechModEntities;
+import net.mcreator.yotatech.init.YotatechModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,6 +53,7 @@ public class YotatechMod {
 		YotatechModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		YotatechModBlocks.REGISTRY.register(bus);
 		YotatechModItems.REGISTRY.register(bus);
 		YotatechModEntities.REGISTRY.register(bus);
 
