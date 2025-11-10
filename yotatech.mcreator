@@ -118,6 +118,116 @@
           }
         ]
       }
+    },
+    {
+      "name": "YotaTesterStorage",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_tester_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/block/entity/YotaTesterStorageBlockEntity.java",
+          "src/main/resources/assets/yotatech/blockstates/yota_tester_storage.json",
+          "src/main/resources/assets/yotatech/models/item/yota_tester_storage.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaTesterStorageBlock.java",
+          "src/main/resources/assets/yotatech/models/block/yota_tester_storage.json"
+        ]
+      }
+    },
+    {
+      "name": "Yotareturnenergy",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotareturnenergy",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotareturnenergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yotagenericenergygui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotagenericenergygui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/world/inventory/YotagenericenergyguiMenu.java",
+          "src/main/java/net/mcreator/yotatech/client/gui/YotagenericenergyguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "YotaEnergyArrowUpdateTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_energy_arrow_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotaEnergyArrowUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YotaEnergyArrow",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_energy_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_energy_arrow.json",
+          "src/main/resources/assets/yotatech/blockstates/yota_energy_arrow.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaEnergyArrowBlock.java",
+          "src/main/resources/assets/yotatech/models/block/yota_energy_arrow.json",
+          "src/main/java/net/mcreator/yotatech/block/entity/YotaEnergyArrowBlockEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -127,7 +237,9 @@
       "item.yotatech.yotavoltgun": "voltgun",
       "block.yotatech.yotasulfurblok": "Yotasulfurblok",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
-      "itemGroup.tabyota_creative_tab": "Yota-Tech"
+      "itemGroup.tabyota_creative_tab": "Yota-Tech",
+      "block.yotatech.yota_energy_arrow": "Energy Arrow",
+      "block.yotatech.yota_tester_storage": "Test Storage"
     }
   },
   "foldersRoot": {

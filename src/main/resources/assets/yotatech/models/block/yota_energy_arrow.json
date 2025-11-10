@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/energyarrowyota",
+    "up": "yotatech:blocks/energyarrowyota",
+    "north": "yotatech:blocks/energyarrowyota",
+    "east": "yotatech:blocks/energyarrowyota",
+    "south": "yotatech:blocks/energyarrowyota",
+    "west": "yotatech:blocks/energyarrowyota",
+    "particle": "yotatech:blocks/energyarrowyota"
+  },
+  "render_type": "solid"
+}

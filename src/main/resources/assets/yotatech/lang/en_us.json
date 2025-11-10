@@ -2,5 +2,7 @@
   "item.yotatech.yotavoltgun": "voltgun",
   "block.yotatech.yotasulfurblok": "Yotasulfurblok",
   "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
-  "itemGroup.tabyota_creative_tab": "Yota-Tech"
+  "itemGroup.tabyota_creative_tab": "Yota-Tech",
+  "block.yotatech.yota_energy_arrow": "Energy Arrow",
+  "block.yotatech.yota_tester_storage": "Test Storage"
 }

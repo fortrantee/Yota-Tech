@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yotatech:block/yota_energy_arrow"
+    },
+    "facing=east": {
+      "model": "yotatech:block/yota_energy_arrow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yotatech:block/yota_energy_arrow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yotatech:block/yota_energy_arrow",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/testerblocktext",
+    "up": "yotatech:blocks/testerblocktext",
+    "north": "yotatech:blocks/testerblocktext",
+    "east": "yotatech:blocks/testerblocktext",
+    "south": "yotatech:blocks/testerblocktext",
+    "west": "yotatech:blocks/testerblocktext",
+    "particle": "yotatech:blocks/testerblocktext"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "yotatech:block/yota_tester_storage"
+    }
+  }
+}

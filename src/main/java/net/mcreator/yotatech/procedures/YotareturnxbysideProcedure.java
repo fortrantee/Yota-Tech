@@ -21,7 +21,7 @@ public class YotareturnxbysideProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(new BlockPos(x, y, z))) == Direction.WEST) {
-			retx = x + 1;
+			retx = x - 1;
 		}
 		if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -35,7 +35,7 @@ public class YotareturnxbysideProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(new BlockPos(x, y, z))) == Direction.EAST) {
-			retx = x - 1;
+			retx = x + 1;
 		}
 		if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
