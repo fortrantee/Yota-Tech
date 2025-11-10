@@ -54,6 +54,70 @@
           "src/main/java/net/mcreator/yotatech/block/YotasulfurblokBlock.java"
         ]
       }
+    },
+    {
+      "name": "Yotareturnxbyside",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotareturnxbyside",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotareturnxbysideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yotareturnzbyside",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotareturnzbyside",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotareturnzbysideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -73,9 +137,8 @@
   "workspaceSettings": {
     "modid": "yotatech",
     "modName": "Yota-Tech",
-    "version": "1.0.0",
-    "author": "Илья, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.1.1",
+    "author": "Fortranguy, grenfoll",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -84,7 +147,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.yotatech",
     "lockBaseModFiles": false
   },
