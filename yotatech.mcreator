@@ -485,6 +485,84 @@
           "src/main/java/net/mcreator/yotatech/item/YotaLeadIngotItem.java"
         ]
       }
+    },
+    {
+      "name": "YotaArsenicAdv",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_arsenic_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/advancements/yota_arsenic_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLeadAdv",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lead_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/advancements/yota_lead_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLithiumAdv",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lithium_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/advancements/yota_lithium_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaProcessingArsenic",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_processing_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/recipes/yota_processing_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLithiumProcessing",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lithium_processing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/recipes/yota_lithium_processing.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLeadProcessing",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lead_processing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/recipes/yota_lead_processing.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -495,13 +573,19 @@
       "item.yotatech.yota_lithium_ingot": "Lithium Ingot",
       "block.yotatech.yota_capacitor": "Capacitor",
       "block.yotatech.yota_energy_arrow": "Energy Arrow",
+      "advancements.yota_lithium_adv.title": "Hello world!",
+      "advancements.yota_lead_adv.descr": "Plumbum, plum, boom, ahhhh ",
       "item.yotatech.yota_lead_ingot": "Lead Ingot",
       "block.yotatech.yotasulfurblok": "Yotasulfurblok",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
+      "advancements.yota_lithium_adv.descr": "Batteries etc.",
+      "advancements.yota_lead_adv.title": "plum (buum) ",
       "itemGroup.tabyota_creative_tab": "Yota-Tech",
       "block.yotatech.yota_galena": "Galena (Lead Ore)",
       "item.yotatech.yota_arsenic_ingot": "Arsenic Ingot",
+      "advancements.yota_arsenic_adv.title": "Darwin Awards ;)",
       "block.yotatech.yota_tester_storage": "Test Storage",
+      "advancements.yota_arsenic_adv.descr": "Be carefule, please",
       "block.yotatech.yota_spudumene": "Spodumene (Lithium Ore)",
       "block.yotatech.yota_realgar": "Realgar (Arsenic Ore)",
       "block.yotatech.yota_give_arrow": "Energy Arrow"
