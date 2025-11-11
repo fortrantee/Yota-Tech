@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "yotatech:block/yota_capacitor"
+    },
+    "facing=east": {
+      "model": "yotatech:block/yota_capacitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yotatech:block/yota_capacitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yotatech:block/yota_capacitor",
+      "y": 270
     }
   }
 }
