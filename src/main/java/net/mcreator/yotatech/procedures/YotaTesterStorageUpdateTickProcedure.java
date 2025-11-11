@@ -8,7 +8,7 @@ import net.minecraft.core.BlockPos;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class YotaEnergyArrowUpdateTickProcedure {
+public class YotaTesterStorageUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));

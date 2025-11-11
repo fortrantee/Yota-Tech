@@ -3,7 +3,7 @@
   "textures": {
     "down": "yotatech:blocks/testerblocktext",
     "up": "yotatech:blocks/testerblocktext",
-    "north": "yotatech:blocks/testerblocktext",
+    "north": "yotatech:blocks/yotagrayplain",
     "east": "yotatech:blocks/testerblocktext",
     "south": "yotatech:blocks/testerblocktext",
     "west": "yotatech:blocks/testerblocktext",

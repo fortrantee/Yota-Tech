@@ -4,5 +4,6 @@
   "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
   "itemGroup.tabyota_creative_tab": "Yota-Tech",
   "block.yotatech.yota_energy_arrow": "Energy Arrow",
-  "block.yotatech.yota_tester_storage": "Test Storage"
+  "block.yotatech.yota_tester_storage": "Test Storage",
+  "block.yotatech.yota_give_arrow": "Energy Arrow"
 }

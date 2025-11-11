@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "testerblocktext",
-    "textureTop": "testerblocktext",
-    "textureLeft": "testerblocktext",
-    "textureFront": "yotagrayplain",
-    "textureRight": "testerblocktext",
-    "textureBack": "testerblocktext",
+    "texture": "yotaenergygivearrow",
+    "textureTop": "yotaenergygivearrow",
+    "textureLeft": "yotaenergygivearrow",
+    "textureFront": "yotaenergygivearrow",
+    "textureRight": "yotaenergygivearrow",
+    "textureBack": "yotaenergygivearrow",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Test Storage",
+    "name": "Energy Arrow",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "AMETHYST_BLOCK"
     },
     "breakSound": {
       "value": ""
@@ -96,29 +96,29 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": true,
-    "guiBoundTo": "Yotagenericenergygui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 9,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
-    "energyInitial": 10000,
-    "energyCapacity": 400000,
+    "energyInitial": 0,
+    "energyCapacity": 1000,
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "YotaTesterStorageUpdateTick"
+      "name": "YotaEnergyArrowUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

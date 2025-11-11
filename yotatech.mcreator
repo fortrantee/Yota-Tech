@@ -228,6 +228,148 @@
           "src/main/java/net/mcreator/yotatech/block/entity/YotaEnergyArrowBlockEntity.java"
         ]
       }
+    },
+    {
+      "name": "YotaGiveArrow",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_give_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/block/yota_give_arrow.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaGiveArrowBlock.java",
+          "src/main/resources/assets/yotatech/blockstates/yota_give_arrow.json",
+          "src/main/resources/assets/yotatech/models/item/yota_give_arrow.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaGiveArrowontick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_give_arrowontick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotaGiveArrowontickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yotaretxneg",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotaretxneg",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotaretxnegProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yotaretzneg",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotaretzneg",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotaretznegProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YotaTesterStorageUpdateTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_tester_storage_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/procedures/YotaTesterStorageUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -239,7 +381,8 @@
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
       "itemGroup.tabyota_creative_tab": "Yota-Tech",
       "block.yotatech.yota_energy_arrow": "Energy Arrow",
-      "block.yotatech.yota_tester_storage": "Test Storage"
+      "block.yotatech.yota_tester_storage": "Test Storage",
+      "block.yotatech.yota_give_arrow": "Energy Arrow"
     }
   },
   "foldersRoot": {
