@@ -14,6 +14,7 @@ import net.mcreator.yotatech.block.YotasulfurblokBlock;
 import net.mcreator.yotatech.block.YotaTesterStorageBlock;
 import net.mcreator.yotatech.block.YotaGiveArrowBlock;
 import net.mcreator.yotatech.block.YotaEnergyArrowBlock;
+import net.mcreator.yotatech.block.YotaCapacitorBlock;
 import net.mcreator.yotatech.YotatechMod;
 
 public class YotatechModBlocks {
@@ -22,4 +23,5 @@ public class YotatechModBlocks {
 	public static final RegistryObject<Block> YOTA_TESTER_STORAGE = REGISTRY.register("yota_tester_storage", () -> new YotaTesterStorageBlock());
 	public static final RegistryObject<Block> YOTA_ENERGY_ARROW = REGISTRY.register("yota_energy_arrow", () -> new YotaEnergyArrowBlock());
 	public static final RegistryObject<Block> YOTA_GIVE_ARROW = REGISTRY.register("yota_give_arrow", () -> new YotaGiveArrowBlock());
+	public static final RegistryObject<Block> YOTA_CAPACITOR = REGISTRY.register("yota_capacitor", () -> new YotaCapacitorBlock());
 }

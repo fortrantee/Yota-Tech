@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/yotacapacitorupdown",
+    "up": "yotatech:blocks/yotacapacitorupdown",
+    "north": "yotatech:blocks/yotacapacitorside",
+    "east": "yotatech:blocks/yotacapacitorside",
+    "south": "yotatech:blocks/yotacapacitorback",
+    "west": "yotatech:blocks/yotacapacitorside",
+    "particle": "yotatech:blocks/yotacapacitorupdown"
+  },
+  "render_type": "solid"
+}

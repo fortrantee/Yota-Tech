@@ -370,6 +370,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "YotaCapacitor",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_capacitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/blockstates/yota_capacitor.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaCapacitorBlock.java",
+          "src/main/resources/assets/yotatech/models/item/yota_capacitor.json",
+          "src/main/java/net/mcreator/yotatech/block/entity/YotaCapacitorBlockEntity.java",
+          "src/main/resources/assets/yotatech/models/block/yota_capacitor.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -378,6 +395,7 @@
     "en_us": {
       "item.yotatech.yotavoltgun": "voltgun",
       "block.yotatech.yotasulfurblok": "Yotasulfurblok",
+      "block.yotatech.yota_capacitor": "Capacitor",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
       "itemGroup.tabyota_creative_tab": "Yota-Tech",
       "block.yotatech.yota_energy_arrow": "Energy Arrow",
