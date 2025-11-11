@@ -4,7 +4,6 @@
  */
 package net.mcreator.yotatech.init;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -15,7 +14,7 @@ public class YotatechModTabs {
 		TAB_YOTA_CREATIVE_TAB = new CreativeModeTab("tabyota_creative_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.POLISHED_GRANITE_SLAB);
+				return new ItemStack(YotatechModBlocks.YOTA_ENERGY_ARROW.get());
 			}
 
 			@Override

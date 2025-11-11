@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/yotaspodumene",
+    "up": "yotatech:blocks/yotaspodumene",
+    "north": "yotatech:blocks/yotaspodumene",
+    "east": "yotatech:blocks/yotaspodumene",
+    "south": "yotatech:blocks/yotaspodumene",
+    "west": "yotatech:blocks/yotaspodumene",
+    "particle": "yotatech:blocks/yotaspodumene"
+  },
+  "render_type": "solid"
+}

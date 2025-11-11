@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yotatech:block/yota_spudumene"
+    },
+    "facing=east": {
+      "model": "yotatech:block/yota_spudumene",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yotatech:block/yota_spudumene",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yotatech:block/yota_spudumene",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "yotatech:block/yota_spudumene",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "yotatech:block/yota_spudumene",
+      "x": 90
+    }
+  }
+}

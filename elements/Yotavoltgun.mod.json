@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 1,
-    "texture": "yotaplaceholder2",
+    "texture": "yotagunvolta",
     "customModelName": "gunj:default",
     "name": "voltgun",
     "specialInfo": [],

@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "badlands",
+    "savanna_plateau",
+    "dripstone_caves",
+    "wooded_badlands",
+    "savanna",
+    "windswept_savanna",
+    "beach",
+    "desert",
+    "eroded_badlands"
+  ],
+  "features": "yotatech:yotasulfurblok",
+  "step": "underground_ores"
+}

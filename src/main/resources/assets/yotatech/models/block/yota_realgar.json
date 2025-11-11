@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/yotarealgar",
+    "up": "yotatech:blocks/yotarealgar",
+    "north": "yotatech:blocks/yotarealgar",
+    "east": "yotatech:blocks/yotarealgar",
+    "south": "yotatech:blocks/yotarealgar",
+    "west": "yotatech:blocks/yotarealgar",
+    "particle": "yotatech:blocks/yotarealgar"
+  },
+  "render_type": "solid"
+}

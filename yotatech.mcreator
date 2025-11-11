@@ -33,9 +33,9 @@
       "registry_name": "yotavoltgun",
       "metadata": {
         "files": [
-          "src/main/resources/assets/yotatech/models/item/yotavoltgun.json",
           "src/main/java/net/mcreator/yotatech/item/YotavoltgunItem.java",
-          "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java"
+          "src/main/java/net/mcreator/yotatech/entity/YotavoltgunEntity.java",
+          "src/main/resources/assets/yotatech/models/item/yotavoltgun.json"
         ]
       }
     },
@@ -48,10 +48,12 @@
       "registry_name": "yotasulfurblok",
       "metadata": {
         "files": [
-          "src/main/resources/assets/yotatech/models/block/yotasulfurblok.json",
           "src/main/resources/assets/yotatech/blockstates/yotasulfurblok.json",
-          "src/main/resources/assets/yotatech/models/item/yotasulfurblok.json",
-          "src/main/java/net/mcreator/yotatech/block/YotasulfurblokBlock.java"
+          "src/main/java/net/mcreator/yotatech/world/features/ores/YotasulfurblokFeature.java",
+          "src/main/java/net/mcreator/yotatech/block/YotasulfurblokBlock.java",
+          "src/main/resources/data/yotatech/forge/biome_modifier/yotasulfurblok_biome_modifier.json",
+          "src/main/resources/assets/yotatech/models/block/yotasulfurblok.json",
+          "src/main/resources/assets/yotatech/models/item/yotasulfurblok.json"
         ]
       }
     },
@@ -387,6 +389,102 @@
           "src/main/resources/assets/yotatech/models/block/yota_capacitor.json"
         ]
       }
+    },
+    {
+      "name": "YotaGalena",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_galena",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/blockstates/yota_galena.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaGalenaBlock.java",
+          "src/main/java/net/mcreator/yotatech/world/features/ores/YotaGalenaFeature.java",
+          "src/main/resources/assets/yotatech/models/block/yota_galena.json",
+          "src/main/resources/assets/yotatech/models/item/yota_galena.json",
+          "src/main/resources/data/yotatech/forge/biome_modifier/yota_galena_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaSpudumene",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_spudumene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_spudumene.json",
+          "src/main/resources/assets/yotatech/blockstates/yota_spudumene.json",
+          "src/main/resources/data/yotatech/forge/biome_modifier/yota_spudumene_biome_modifier.json",
+          "src/main/java/net/mcreator/yotatech/world/features/ores/YotaSpudumeneFeature.java",
+          "src/main/resources/assets/yotatech/models/block/yota_spudumene.json",
+          "src/main/java/net/mcreator/yotatech/block/YotaSpudumeneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "YotaRealgar",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_realgar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/world/features/ores/YotaRealgarFeature.java",
+          "src/main/java/net/mcreator/yotatech/block/YotaRealgarBlock.java",
+          "src/main/resources/assets/yotatech/blockstates/yota_realgar.json",
+          "src/main/resources/data/yotatech/forge/biome_modifier/yota_realgar_biome_modifier.json",
+          "src/main/resources/assets/yotatech/models/block/yota_realgar.json",
+          "src/main/resources/assets/yotatech/models/item/yota_realgar.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaArsenicIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_arsenic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/item/YotaArsenicIngotItem.java",
+          "src/main/resources/assets/yotatech/models/item/yota_arsenic_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLithiumIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lithium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/item/YotaLithiumIngotItem.java",
+          "src/main/resources/assets/yotatech/models/item/yota_lithium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "YotaLeadIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_lead_ingot.json",
+          "src/main/java/net/mcreator/yotatech/item/YotaLeadIngotItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -394,12 +492,18 @@
   "language_map": {
     "en_us": {
       "item.yotatech.yotavoltgun": "voltgun",
-      "block.yotatech.yotasulfurblok": "Yotasulfurblok",
+      "item.yotatech.yota_lithium_ingot": "Lithium Ingot",
       "block.yotatech.yota_capacitor": "Capacitor",
+      "block.yotatech.yota_energy_arrow": "Energy Arrow",
+      "item.yotatech.yota_lead_ingot": "Lead Ingot",
+      "block.yotatech.yotasulfurblok": "Yotasulfurblok",
       "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
       "itemGroup.tabyota_creative_tab": "Yota-Tech",
-      "block.yotatech.yota_energy_arrow": "Energy Arrow",
+      "block.yotatech.yota_galena": "Galena (Lead Ore)",
+      "item.yotatech.yota_arsenic_ingot": "Arsenic Ingot",
       "block.yotatech.yota_tester_storage": "Test Storage",
+      "block.yotatech.yota_spudumene": "Spodumene (Lithium Ore)",
+      "block.yotatech.yota_realgar": "Realgar (Arsenic Ore)",
       "block.yotatech.yota_give_arrow": "Energy Arrow"
     }
   },

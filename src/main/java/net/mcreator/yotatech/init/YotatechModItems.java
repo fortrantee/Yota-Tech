@@ -14,7 +14,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.yotatech.item.YotavoltgunItem;
+import net.mcreator.yotatech.item.YotaLithiumIngotItem;
+import net.mcreator.yotatech.item.YotaLeadIngotItem;
 import net.mcreator.yotatech.item.YotaBulletNormalItem;
+import net.mcreator.yotatech.item.YotaArsenicIngotItem;
 import net.mcreator.yotatech.YotatechMod;
 
 public class YotatechModItems {
@@ -26,6 +29,12 @@ public class YotatechModItems {
 	public static final RegistryObject<Item> YOTA_ENERGY_ARROW = block(YotatechModBlocks.YOTA_ENERGY_ARROW, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
 	public static final RegistryObject<Item> YOTA_GIVE_ARROW = block(YotatechModBlocks.YOTA_GIVE_ARROW, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
 	public static final RegistryObject<Item> YOTA_CAPACITOR = block(YotatechModBlocks.YOTA_CAPACITOR, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
+	public static final RegistryObject<Item> YOTA_GALENA = block(YotatechModBlocks.YOTA_GALENA, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
+	public static final RegistryObject<Item> YOTA_SPUDUMENE = block(YotatechModBlocks.YOTA_SPUDUMENE, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
+	public static final RegistryObject<Item> YOTA_REALGAR = block(YotatechModBlocks.YOTA_REALGAR, YotatechModTabs.TAB_YOTA_CREATIVE_TAB);
+	public static final RegistryObject<Item> YOTA_ARSENIC_INGOT = REGISTRY.register("yota_arsenic_ingot", () -> new YotaArsenicIngotItem());
+	public static final RegistryObject<Item> YOTA_LITHIUM_INGOT = REGISTRY.register("yota_lithium_ingot", () -> new YotaLithiumIngotItem());
+	public static final RegistryObject<Item> YOTA_LEAD_INGOT = REGISTRY.register("yota_lead_ingot", () -> new YotaLeadIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

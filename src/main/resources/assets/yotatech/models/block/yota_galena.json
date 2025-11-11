@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yotatech:blocks/yotagalena",
+    "up": "yotatech:blocks/yotagalena",
+    "north": "yotatech:blocks/yotagalena",
+    "east": "yotatech:blocks/yotagalena",
+    "south": "yotatech:blocks/yotagalena",
+    "west": "yotatech:blocks/yotagalena",
+    "particle": "yotatech:blocks/yotagalena"
+  },
+  "render_type": "solid"
+}

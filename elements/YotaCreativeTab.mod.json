@@ -4,7 +4,7 @@
   "definition": {
     "name": "Yota-Tech",
     "icon": {
-      "value": "Blocks.POLISHED_GRANITE_SLAB"
+      "value": "CUSTOM:YotaEnergyArrow"
     },
     "showSearch": true
   }

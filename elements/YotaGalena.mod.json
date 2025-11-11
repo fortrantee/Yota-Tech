@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "yotasulfur",
-    "textureTop": "yotasulfur",
-    "textureLeft": "yotasulfur",
-    "textureFront": "yotasulfur",
-    "textureRight": "yotasulfur",
-    "textureBack": "yotasulfur",
+    "texture": "yotagalena",
+    "textureTop": "yotagalena",
+    "textureLeft": "yotagalena",
+    "textureFront": "yotagalena",
+    "textureRight": "yotagalena",
+    "textureBack": "yotagalena",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Yotasulfurblok",
+    "name": "Galena (Lead Ore)",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -42,13 +42,13 @@
     "creativeTab": {
       "value": "CUSTOM:YotaCreativeTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -120,53 +120,7 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      },
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "badlands_plateau"
-      },
-      {
-        "value": "mutated_mesa"
-      },
-      {
-        "value": "mutated_mesa_clear_rock"
-      },
-      {
-        "value": "mutated_mesa_rock"
-      },
-      {
-        "value": "wooded_badlands_plateau"
-      },
-      {
-        "value": "dripstone_caves"
-      },
-      {
-        "value": "savanna"
-      },
-      {
-        "value": "savanna_rock"
-      },
-      {
-        "value": "mutated_savanna_rock"
-      },
-      {
-        "value": "mutated_savanna"
-      },
-      {
-        "value": "beaches"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE#0"
@@ -182,9 +136,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 9,
-    "minGenerateHeight": 6,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 6,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 70
   }
 }

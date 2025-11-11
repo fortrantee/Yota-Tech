@@ -1,10 +1,16 @@
 {
   "item.yotatech.yotavoltgun": "voltgun",
-  "block.yotatech.yotasulfurblok": "Yotasulfurblok",
+  "item.yotatech.yota_lithium_ingot": "Lithium Ingot",
   "block.yotatech.yota_capacitor": "Capacitor",
+  "block.yotatech.yota_energy_arrow": "Energy Arrow",
+  "item.yotatech.yota_lead_ingot": "Lead Ingot",
+  "block.yotatech.yotasulfurblok": "Yotasulfurblok",
   "item.yotatech.yota_bullet_normal": "Bullet (Normal)",
   "itemGroup.tabyota_creative_tab": "Yota-Tech",
-  "block.yotatech.yota_energy_arrow": "Energy Arrow",
+  "block.yotatech.yota_galena": "Galena (Lead Ore)",
+  "item.yotatech.yota_arsenic_ingot": "Arsenic Ingot",
   "block.yotatech.yota_tester_storage": "Test Storage",
+  "block.yotatech.yota_spudumene": "Spodumene (Lithium Ore)",
+  "block.yotatech.yota_realgar": "Realgar (Arsenic Ore)",
   "block.yotatech.yota_give_arrow": "Energy Arrow"
 }

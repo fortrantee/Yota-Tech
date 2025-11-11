@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.yotatech.init.YotatechModTabs;
 import net.mcreator.yotatech.init.YotatechModMenus;
 import net.mcreator.yotatech.init.YotatechModItems;
+import net.mcreator.yotatech.init.YotatechModFeatures;
 import net.mcreator.yotatech.init.YotatechModEntities;
 import net.mcreator.yotatech.init.YotatechModBlocks;
 import net.mcreator.yotatech.init.YotatechModBlockEntities;
@@ -59,6 +60,7 @@ public class YotatechMod {
 		YotatechModItems.REGISTRY.register(bus);
 		YotatechModEntities.REGISTRY.register(bus);
 		YotatechModBlockEntities.REGISTRY.register(bus);
+		YotatechModFeatures.REGISTRY.register(bus);
 
 		YotatechModMenus.REGISTRY.register(bus);
 
