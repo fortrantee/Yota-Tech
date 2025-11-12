@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "yotatech:yota_lead_ingot"
+    },
+    "1": {
+      "item": "yotatech:yota_lead_ingot"
+    },
+    "2": {
+      "item": "yotatech:yota_lead_ingot"
+    }
+  },
+  "result": {
+    "item": "yotatech:yota_energy_arrow",
+    "count": 1
+  }
+}

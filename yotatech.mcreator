@@ -608,6 +608,32 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "YotaCapacitorRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_capacitor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/recipes/yota_capacitor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Yotaenergyarrowcraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotaenergyarrowcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yotatech/recipes/yotaenergyarrowcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
