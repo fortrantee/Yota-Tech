@@ -634,6 +634,74 @@
           "src/main/resources/data/yotatech/recipes/yotaenergyarrowcraft.json"
         ]
       }
+    },
+    {
+      "name": "YotaSulfur",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_sulfur.json",
+          "src/main/java/net/mcreator/yotatech/item/YotaSulfurItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YotaHydrogenPeroxide",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_hydrogen_peroxide",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_hydrogen_peroxide.json",
+          "src/main/java/net/mcreator/yotatech/item/YotaHydrogenPeroxideItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Yotahydrogenperoxidereciept",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yotahydrogenperoxidereciept",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/recipes/brewing/YotahydrogenperoxiderecieptBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "YotaSulfurAcid",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_sulfur_acid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yotatech/models/item/yota_sulfur_acid.json",
+          "src/main/java/net/mcreator/yotatech/item/YotaSulfurAcidItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YotaSulfurAcidRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yota_sulfur_acid_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yotatech/recipes/brewing/YotaSulfurAcidRecipeBrewingRecipe.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -650,10 +718,13 @@
       "block.yotatech.yota_galena": "Галенит (Свинцовая Руда)",
       "advancements.yota_arsenic_adv.title": "Премия Дарвина ;)",
       "itemGroup.tabyota_creative_tab_ingots": "YotaTech: Слитки",
+      "item.yotatech.yota_sulfur": "Сера",
       "advancements.yota_arsenic_adv.descr": "Будьте осторожнее, пожалуйста",
       "itemGroup.tabyota_creative_tab_combat": "YotaTech: Сражения",
+      "item.yotatech.yota_hydrogen_peroxide": "Перекись водорода",
       "block.yotatech.yota_spudumene": "Сподумен (Литиевая Руда)",
       "block.yotatech.yota_realgar": "Реальгар (Мышьяковая Руда)",
+      "item.yotatech.yota_sulfur_acid": "Серная Кислота",
       "block.yotatech.yota_give_arrow": "Energy Arrow (LEGACY, UNUSED)",
       "advancements.yota_lithium_adv.title": "Hello world!",
       "advancements.yota_lead_adv.descr": "Плюм, бум, аааааа",
@@ -675,11 +746,14 @@
       "advancements.yota_lead_adv.title": "plum (buum) ",
       "block.yotatech.yota_galena": "Galena (Lead Ore)",
       "advancements.yota_arsenic_adv.title": "Darwin Awards ;)",
-      "itemGroup.tabyota_creative_tab_ingots": "YotaTech: Ingots",
+      "itemGroup.tabyota_creative_tab_ingots": "YotaTech: Ingots And Chemistry",
+      "item.yotatech.yota_sulfur": "Sulfur",
       "advancements.yota_arsenic_adv.descr": "Be carefule, please",
       "itemGroup.tabyota_creative_tab_combat": "YotaTech: Combat",
+      "item.yotatech.yota_hydrogen_peroxide": "Hydrogen Peroxide",
       "block.yotatech.yota_spudumene": "Spodumene (Lithium Ore)",
       "block.yotatech.yota_realgar": "Realgar (Arsenic Ore)",
+      "item.yotatech.yota_sulfur_acid": "Sulfur Acid",
       "block.yotatech.yota_give_arrow": "Energy Arrow (LEGACY, UNUSED)",
       "advancements.yota_lithium_adv.title": "Hello world!",
       "advancements.yota_lead_adv.descr": "Plumbum, plum, boom, ahhhh ",

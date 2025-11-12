@@ -14,8 +14,11 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.yotatech.item.YotavoltgunItem;
+import net.mcreator.yotatech.item.YotaSulfurItem;
+import net.mcreator.yotatech.item.YotaSulfurAcidItem;
 import net.mcreator.yotatech.item.YotaLithiumIngotItem;
 import net.mcreator.yotatech.item.YotaLeadIngotItem;
+import net.mcreator.yotatech.item.YotaHydrogenPeroxideItem;
 import net.mcreator.yotatech.item.YotaBulletNormalItem;
 import net.mcreator.yotatech.item.YotaArsenicIngotItem;
 import net.mcreator.yotatech.YotatechMod;
@@ -35,6 +38,9 @@ public class YotatechModItems {
 	public static final RegistryObject<Item> YOTA_ARSENIC_INGOT = REGISTRY.register("yota_arsenic_ingot", () -> new YotaArsenicIngotItem());
 	public static final RegistryObject<Item> YOTA_LITHIUM_INGOT = REGISTRY.register("yota_lithium_ingot", () -> new YotaLithiumIngotItem());
 	public static final RegistryObject<Item> YOTA_LEAD_INGOT = REGISTRY.register("yota_lead_ingot", () -> new YotaLeadIngotItem());
+	public static final RegistryObject<Item> YOTA_SULFUR = REGISTRY.register("yota_sulfur", () -> new YotaSulfurItem());
+	public static final RegistryObject<Item> YOTA_HYDROGEN_PEROXIDE = REGISTRY.register("yota_hydrogen_peroxide", () -> new YotaHydrogenPeroxideItem());
+	public static final RegistryObject<Item> YOTA_SULFUR_ACID = REGISTRY.register("yota_sulfur_acid", () -> new YotaSulfurAcidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
