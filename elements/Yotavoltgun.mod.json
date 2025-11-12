@@ -8,7 +8,7 @@
     "name": "voltgun",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:YotaCreativeTab"
+      "value": "CUSTOM:YotaCreativeTabCombat"
     },
     "stackSize": 1,
     "ammoItem": {

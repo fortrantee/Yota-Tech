@@ -8,7 +8,7 @@
     "name": "Bullet (Normal)",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:YotaCreativeTab"
+      "value": "CUSTOM:YotaCreativeTabCombat"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -8,7 +8,7 @@
     "name": "Arsenic Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:YotaCreativeTab"
+      "value": "CUSTOM:YotaCreativeTabIngots"
     },
     "stackSize": 64,
     "enchantability": 0,

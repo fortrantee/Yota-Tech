@@ -8,6 +8,6 @@ import net.mcreator.yotatech.init.YotatechModTabs;
 
 public class YotaBulletNormalItem extends Item {
 	public YotaBulletNormalItem() {
-		super(new Item.Properties().tab(YotatechModTabs.TAB_YOTA_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(YotatechModTabs.TAB_YOTA_CREATIVE_TAB_COMBAT).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

@@ -27,7 +27,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class YotavoltgunItem extends Item {
 	public YotavoltgunItem() {
-		super(new Item.Properties().tab(YotatechModTabs.TAB_YOTA_CREATIVE_TAB).durability(100));
+		super(new Item.Properties().tab(YotatechModTabs.TAB_YOTA_CREATIVE_TAB_COMBAT).durability(100));
 	}
 
 	@Override

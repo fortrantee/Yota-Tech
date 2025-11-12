@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:YotaCreativeTab"
+      "value": "CUSTOM:YotaCreativeTabOres"
     },
     "destroyTool": "Not specified",
     "customDrop": {

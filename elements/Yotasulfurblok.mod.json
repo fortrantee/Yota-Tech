@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Yotasulfurblok",
+    "name": "Sulfur Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:YotaCreativeTab"
+      "value": "CUSTOM:YotaCreativeTabOres"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WET_GRASS"
     },
     "breakSound": {
       "value": ""

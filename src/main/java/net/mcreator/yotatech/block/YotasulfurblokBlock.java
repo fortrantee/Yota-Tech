@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class YotasulfurblokBlock extends Block {
 	public YotasulfurblokBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WET_GRASS).strength(1f, 10f));
 	}
 
 	@Override
